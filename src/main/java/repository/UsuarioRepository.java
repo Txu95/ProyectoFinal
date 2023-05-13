@@ -15,7 +15,7 @@ public class UsuarioRepository {
   private java.sql.Connection openConnection() {
     String url = "jdbc:oracle:thin:@localhost:1521:xe";
     String user = "System";
-    String pass = "mercy";
+    String pass = "system";
 
     try {
       Connection conexion = DriverManager.getConnection(url, user, pass);
